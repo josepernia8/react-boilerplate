@@ -1,3 +1,5 @@
+import CssDev from "../components/CssDev"
+
 export default function Other() {
-  return <div>Other Page</div>
+  return <CssDev />
 }

@@ -1,10 +1,9 @@
-import React from 'react'
-import { Card } from 'flowbite-react'
+import {Card} from "flowbite-react"
 
 function Home() {
   return (
     <div className="flex justify-center mt-5">
-      <div className="max-w-sm rounded bg-gray-100 p-5 dark:bg-gray-900">
+      <div className="max-w-sm rounded bg-broad p-5">
         <Card imgSrc="https://flowbite.com/docs/images/blog/image-1.jpg">
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Noteworthy technology acquisitions 2021

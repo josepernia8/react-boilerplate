@@ -1,0 +1,63 @@
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+  width: 50px;
+}
+
+.logo-sides {
+  align-self: baseline;
+  color: theme("colors.inverse");
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.logo-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.logo-center_wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.5em;
+}
+
+.logo-center_shades {
+  border: 5px solid theme("colors.primary");
+  border-radius: 30%;
+  animation: fadeRotateLeft 1s ease-in;
+}
+
+.logo-center_mouth {
+  width: 40%;
+  background-color: theme("colors.primary");
+  border: 2px solid theme("colors.primary");
+  border-radius: 0 0 10px 10px;
+  animation: fadeUpIn 1s ease-in;
+}
+
+@keyframes fadeUpIn {
+  0% {
+    opacity: 0;
+    transform: translateY(2vw);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeRotateLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(3vw) rotate(360deg);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) rotate(0deg);
+  }
+}
