@@ -5,7 +5,7 @@ import {ReactComponent as Instagram} from "../../assets/instagram.svg"
 import {ReactComponent as Twitter} from "../../assets/twitter.svg"
 
 const FooterComponent: React.FC = () => (
-  <Footer container={true}>
+  <Footer container id="footer">
     <div className="w-full">
       <div className="flex justify-center md:justify-end">
         <Footer.LinkGroup>

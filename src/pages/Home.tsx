@@ -2,8 +2,8 @@ import {Card} from "flowbite-react"
 
 function Home() {
   return (
-    <section className="flex justify-center mt-5">
-      <article className="max-w-sm rounded bg-broad p-5">
+    <section>
+      <article className="max-w-sm rounded p-5">
         <Card imgSrc="https://flowbite.com/docs/images/blog/image-1.jpg">
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Noteworthy technology acquisitions 2021

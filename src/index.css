@@ -6,11 +6,18 @@
   body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #f8fafc; /* bg-slate-50 */
+    background-color: #f8fafc; /* slate-50 */
+    color: #111827; /* gray-900 */
   }
 
   .dark body {
     background-color: #1e293b; /* slate-800 */
+    color: #fff;
+  }
+
+  #all-container header,
+  #all-container footer {
+    background-color: transparent;
   }
 
   code {

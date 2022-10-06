@@ -9,7 +9,7 @@ interface Props extends React.ComponentProps<"div"> {
 
 const Header = ({isDark, toggleDark}: Props) => (
   <header className="h-24">
-    <Navbar border style={{background: "transparent"}}>
+    <Navbar border>
       <Navbar.Brand href="https://github.com/Blazeknot">
         <img src="https://flowbite.com/docs/images/logo.svg" className="mr-3 h-6 sm:h-9" alt="Blazeknot Logo" />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Blazeknot</span>
