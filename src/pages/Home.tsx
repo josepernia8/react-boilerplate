@@ -2,8 +2,8 @@ import {Card} from "flowbite-react"
 
 function Home() {
   return (
-    <div className="flex justify-center mt-5">
-      <div className="max-w-sm rounded bg-broad p-5">
+    <section className="flex justify-center mt-5">
+      <article className="max-w-sm rounded bg-broad p-5">
         <Card imgSrc="https://flowbite.com/docs/images/blog/image-1.jpg">
           <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             Noteworthy technology acquisitions 2021
@@ -12,8 +12,8 @@ function Home() {
             Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.
           </p>
         </Card>
-      </div>
-    </div>
+      </article>
+    </section>
   )
 }
 export default Home
