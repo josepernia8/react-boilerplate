@@ -9,15 +9,9 @@ const FooterComponent: React.FC = () => (
     <div className="w-full">
       <div className="flex justify-center md:justify-end">
         <Footer.LinkGroup>
-          <li className="mx-2">
-            <Footer.Link href="/about">About</Footer.Link>
-          </li>
-          <li className="mx-2">
-            <Footer.Link href="https://github.com/Blazeknot">Follow Us</Footer.Link>
-          </li>
-          <li className="mx-2">
-            <Footer.Link href="/contact">Contact</Footer.Link>
-          </li>
+          <Footer.Link href="/about">About</Footer.Link>
+          <Footer.Link href="https://github.com/Blazeknot">Follow Us</Footer.Link>
+          <Footer.Link href="/contact">Contact</Footer.Link>
         </Footer.LinkGroup>
       </div>
       <Footer.Divider />
